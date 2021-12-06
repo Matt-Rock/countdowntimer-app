@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap");
 * {
   margin: 0;
+  font-family: "Antonio", sans-serif;
 }
 
 html {
   margin: 0;
   left: 0;
   top: 0;
-  font-family: "Antonio", sans-serif;
 }
 
 body {
@@ -106,12 +106,113 @@ section h1 {
 
 .buttons-container {
   width: 100%;
+  height: 50px;
   display: flex;
+  padding-top: 1.5rem;
 }
 .buttons-container button {
-  width: 50%;
-  margin-top: 15px;
+  width: 45%;
 }
-.buttons-container button + button {
-  margin-left: 15px;
+.buttons-container #setting {
+  width: 10%;
+  background-color: #E90C7B;
+  margin: 0 25px;
+}
+
+.up,
+.down {
+  height: 15rem;
+  background: #678186bb;
+}
+
+.up:hover,
+.down:hover {
+  background-color: #678186;
+}
+
+button:active {
+  transform: scale(1.1);
+  transition: 0.25s;
+}
+
+#pomodoro-section {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.356);
+}
+
+.pomodoro {
+  position: relative;
+  width: 20rem;
+  height: 25rem;
+  background: #495055;
+  color: #678186;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pomodoro button {
+  width: 5rem;
+  height: 3rem;
+  margin-top: 25px;
+}
+.pomodoro h2 {
+  margin-top: 25px;
+  color: #E90C7B;
+}
+
+#close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -5px;
+  right: -5px;
+  margin: 0;
+}
+
+.pomodoro-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+.pomodoro-text input {
+  width: 40px;
+  height: 85%;
+  margin: 0 15px;
+  font-family: "Antonio", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.24);
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.pom {
+  color: #e4e1e1;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
 }/*# sourceMappingURL=styles.css.map */

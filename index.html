@@ -17,35 +17,151 @@
             <div class="card">
                 <h2>SECONDS</h2>
                 <div class="number-container" id="seconds-container">
-                    <button class="up hide">up</button>
-                    <h3 id="seconds">01</h3>
-                    <button class="down hide">down</button>
+                    <button class="up hide"><svg width="50" height="50" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 9L12.7071 8.29289L12 7.58579L11.2929 8.29289L12 9ZM18.7071 14.2929L12.7071 8.29289L11.2929 9.70711L17.2929 15.7071L18.7071 14.2929ZM11.2929 8.29289L5.29289 14.2929L6.70711 15.7071L12.7071 9.70711L11.2929 8.29289Z"
+                                fill="#CCD2E3" />
+                        </svg>
+                    </button>
+                    <h3 id="seconds">00</h3>
+                    <button class="down hide"><svg width="50" height="50" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 15L12.7071 15.7071L12 16.4142L11.2929 15.7071L12 15ZM18.7071 9.70711L12.7071 15.7071L11.2929 14.2929L17.2929 8.29289L18.7071 9.70711ZM11.2929 15.7071L5.29289 9.70711L6.70711 8.29289L12.7071 14.2929L11.2929 15.7071Z"
+                                fill="#CCD2E3" />
+                        </svg>
+                    </button>
                 </div>
             </div>
             <div class="card">
                 <h2>MINUTES</h2>
                 <div class="number-container" id="minutes-container">
-                    <button class="up hide">up</button>
+                    <button class="up hide"><svg width="50" height="50" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 9L12.7071 8.29289L12 7.58579L11.2929 8.29289L12 9ZM18.7071 14.2929L12.7071 8.29289L11.2929 9.70711L17.2929 15.7071L18.7071 14.2929ZM11.2929 8.29289L5.29289 14.2929L6.70711 15.7071L12.7071 9.70711L11.2929 8.29289Z"
+                                fill="#CCD2E3" />
+                        </svg></button>
                     <h3 id="minutes">00</h3>
-                    <button class="down hide">down</button>
+                    <button class="down hide"><svg width="50" height="50" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 15L12.7071 15.7071L12 16.4142L11.2929 15.7071L12 15ZM18.7071 9.70711L12.7071 15.7071L11.2929 14.2929L17.2929 8.29289L18.7071 9.70711ZM11.2929 15.7071L5.29289 9.70711L6.70711 8.29289L12.7071 14.2929L11.2929 15.7071Z"
+                                fill="#CCD2E3" />
+                        </svg></button>
                 </div>
 
             </div>
             <div class="card">
                 <h2>HOURS</h2>
                 <div class="number-container" id="hours-container">
-                    <button class="up hide">up</button>
+                    <button class="up hide"><svg width="50" height="50" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 9L12.7071 8.29289L12 7.58579L11.2929 8.29289L12 9ZM18.7071 14.2929L12.7071 8.29289L11.2929 9.70711L17.2929 15.7071L18.7071 14.2929ZM11.2929 8.29289L5.29289 14.2929L6.70711 15.7071L12.7071 9.70711L11.2929 8.29289Z"
+                                fill="#CCD2E3" />
+                        </svg></button>
                     <h3 id="hours">00</h3>
-                    <button class="down hide">down</button>
+                    <button class="down hide"><svg width="50" height="50" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 15L12.7071 15.7071L12 16.4142L11.2929 15.7071L12 15ZM18.7071 9.70711L12.7071 15.7071L11.2929 14.2929L17.2929 8.29289L18.7071 9.70711ZM11.2929 15.7071L5.29289 9.70711L6.70711 8.29289L12.7071 14.2929L11.2929 15.7071Z"
+                                fill="#CCD2E3" />
+                        </svg></button>
                 </div>
             </div>
 
         </div>
-        <div class="buttons-container">
-            <button class="" id="state">state</button>
-            <button id="change">change</button>
-        </div>
+        <div class="buttons-container" id="buttons">
+            <button id="state">
+                <svg id="pause" width="38" height="38" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.5 10.0003C9.5 9.20875 8.44722 8.99895 8.16791 9.73957C7.49228 11.5311 7 13.1337 7 14.0002C7 16.7616 9.23858 19.0002 12 19.0002C14.7614 19.0002 17 16.7616 17 14.0002C17 13.0693 16.4318 11.2887 15.6784 9.33698C14.7026 6.80879 14.2146 5.54469 13.6123 5.4766C13.4196 5.45482 13.2093 5.49399 13.0374 5.58371C12.5 5.86413 12.5 7.24285 12.5 10.0003C12.5 10.8287 11.8284 11.5003 11 11.5003C10.1716 11.5003 9.5 10.8287 9.5 10.0003Z"
+                        stroke="#CCD2E3" stroke-width="2" />
+                </svg>
+                <svg class="hide" id="start" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.5 10.0003C9.5 9.20875 8.44722 8.99895 8.16791 9.73957C7.49228 11.5311 7 13.1337 7 14.0002C7 16.7616 9.23858 19.0002 12 19.0002C14.7614 19.0002 17 16.7616 17 14.0002C17 13.0693 16.4318 11.2887 15.6784 9.33698C14.7026 6.80879 14.2146 5.54469 13.6123 5.4766C13.4196 5.45482 13.2093 5.49399 13.0374 5.58371C12.5 5.86413 12.5 7.24285 12.5 10.0003C12.5 10.8287 11.8284 11.5003 11 11.5003C10.1716 11.5003 9.5 10.8287 9.5 10.0003Z"
+                        fill="white" />
+                </svg>
 
+
+            </button>
+            <button class="hide pom" id="state-pom">
+                WORK
+            </button>
+            <button id="setting">
+                <svg id="icon-tim" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 6.5C12 6.26077 12 6.14115 12.0807 6.06687C12.1615 5.99259 12.2741 6.002 12.4994 6.02082C13.3784 6.09424 14.2326 6.36078 15 6.80385C15.9121 7.33046 16.6695 8.08788 17.1962 9C17.7228 9.91212 18 10.9468 18 12C18 13.0532 17.7228 14.0879 17.1962 15C16.6695 15.9121 15.9121 16.6695 15 17.1962C14.0879 17.7228 13.0532 18 12 18C10.9468 18 9.91211 17.7228 9 17.1962C8.23258 16.7531 7.57467 16.1466 7.07159 15.4221C6.94265 15.2364 6.87817 15.1435 6.90213 15.0365C6.92608 14.9294 7.02968 14.8696 7.23686 14.75L11.75 12.1443C11.872 12.0739 11.933 12.0387 11.9665 11.9807C12 11.9226 12 11.8522 12 11.7113V6.5Z"
+                        fill="#CCD2E3" />
+                    <circle cx="12" cy="12" r="9" stroke="#CCD2E3" stroke-width="2" />
+                </svg>
+                <svg class="hide" id="icon-pom" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM12.0796 5.06765C12 5.14181 12 5.2612 12 5.5V11.7113C12 11.8522 12 11.9226 11.9665 11.9807C11.933 12.0387 11.872 12.0739 11.75 12.1443L6.37083 15.25C6.16403 15.3694 6.06063 15.4291 6.03624 15.5351C6.01184 15.6412 6.07559 15.7354 6.20307 15.9237C6.79578 16.7994 7.58052 17.5313 8.5 18.0622C9.56413 18.6766 10.7712 19 12 19C13.2288 19 14.4359 18.6766 15.5 18.0622C16.5641 17.4478 17.4478 16.5641 18.0622 15.5C18.6766 14.4359 19 13.2288 19 12C19 10.7712 18.6766 9.56413 18.0622 8.5C17.4478 7.43587 16.5641 6.5522 15.5 5.93782C14.5805 5.40696 13.5543 5.09331 12.4996 5.01785C12.2727 5.00162 12.1593 4.9935 12.0796 5.06765Z"
+                        fill="white" />
+                </svg>
+
+
+
+            </button>
+            <button id="change">
+                <svg width="27" height="27" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="7" stroke="#CCD2E3" stroke-width="2" />
+                    <circle cx="12" cy="12" r="2" fill="#CCD2E3" stroke="#CCD2E3" stroke-width="2" />
+                    <path
+                        d="M7.05026 7.05026L4.00006 4.00031M16.9498 7.05026L20.0001 4.00031M20.0001 20.0003L16.9498 16.9498M4.00006 20.0003L7.05026 16.9498"
+                        stroke="#CCD2E3" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </button>
+            <button class="hide pom" id="break">
+                BREAK
+            </button>
+            <button class="hide pom" id="longBreak">
+                LONG BREAK
+            </button>
+        </div>
+    </section>
+    <section id="pomodoro-section">
+        <div class="pomodoro">
+            <h2>POMODORO</h2>
+            <div class="work pomodoro-text">
+                <label for="work">WORK</label>
+                <input autocomplete="off" min="1" max="999" type="number" name="work" id="work-text" placeholder="0">
+                <label for="work">MIN</label>
+            </div>
+            <div class="break pomodoro-text">
+                <label for="break">BREAK</label>
+                <input autocomplete="off" min="1" max="999" type="number" name="break" id="break-text" placeholder="0">
+                <label for="break">MIN</label>
+            </div>
+            <div class="long-break pomodoro-text">
+                <label for="long-break">LONG BREAK</label>
+                <input autocomplete="off" min="1" max="999" type="number" name="long-break" id="long-break-text" placeholder="0">
+                <label for="long-break">MIN</label>
+            </div>
+            <button id="apply">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 14L8.23309 16.4248C8.66178 16.7463 9.26772 16.6728 9.60705 16.2581L18 6"
+                        stroke="#CCD2E3" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </button>
+
+            <button id="close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18" stroke="#CCD2E3" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M6 6L18 18" stroke="#CCD2E3" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
     </section>
 
 
